@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+
+/*----------------------------------header-------------------------------------*/
+
+header .btn {
+    float: right;
+}
+
+.container-top {
+    background-color: rgba(0, 0, 0, 1);
+    height: 70px;
+}
+
+/*---------------------------------big logo------------------------------------*/
+
+.mylogo-big {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: xx-large;
+    letter-spacing: 8px;
+    color: #e1e1e1;
+    width: 240px;
+    height: 100px;
+    position: relative;
+    
+    
+
+}
+
+#per_in_logo-big {
+    margin-bottom: -20px;
+}
+
+#fect_in_logo-big {
+    margin-bottom: 0px;
+    letter-spacing: 11px;
+}
+
+#dumbbell-big {
+    color: #e0000e;
+    margin: 0;
+    position: absolute;
+    font-size: xx-large;
+    right: 100px;
+    top: 0px;
+}
+
+#gym_in_logo-big {
+    margin: 0;
+    position: absolute;
+    right: 0px;
+    top: 18px;
+}
+
+
+
+/*---------------------------------Nav bar-------------------------------------*/
+
+
+.nav-gym{
+    height: 100px;
+    
+    padding: 55px 200px 0px 200px;
+    background-color: #000;
+    font-family: 'Alfa Slab One', cursive;
+    
+    color: #e1e1e1;
+    
+}
+
+
+
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
+
+
+
+
+
+/*----------------------------------Footer-------------------------------------*/
+/*--------------------------------small logo-----------------------------------*/
+
+.mylogo {
+    font-family: 'Alfa Slab One', cursive;
+
+    letter-spacing: 8px;
+    color: #e1e1e1;
+    width: 145px;
+    position: relative;
+
+}
+
+#per_in_logo {
+    margin-bottom: -8px;
+}
+
+#fect_in_logo {
+    margin-bottom: 0px;
+    letter-spacing: 9.5px;
+}
+
+#dumbbell {
+    color: #e0000e;
+    margin: 0;
+    position: absolute;
+    right: 60px;
+    top: 0px;
+}
+
+#gym_in_logo {
+    margin: 0;
+    position: absolute;
+    right: 0px;
+    top: 9px;
+}
+
+footer {
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   /*width: 100%;*/
+    /*background-color: #2e2d2c;*/
+    background-color: #000;
+    color: #fafafa;
+    min-height: 120px;
+}
+
+.footer-items {
+    padding: 0;
+    margin: 0;
+}
+
+#phone,
+#map {
+    color: #fff;
+}
+
+
+.social-link {
+    margin: 0;
+}
+
+
+.social-link li a i {
+
+    font-size: 18px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #2e2d2c;
+
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+
+.list-inline-item {
+    margin: 0;
+}
+
+
+.social-link li a i:hover {
+    color: #e0000e;
+    font-size: 22px;
+}
+
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+
+.menucontainer {
+    font-size: 0;
+}
+
+
+
+/*----------------------Special paddings/margins/text-------------------------*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.bg-transparent {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.main-font {
+    
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 100;
+    color: #e1e1e1;
+    text-shadow: 2px 2px 2px #e0000e;
+    text-align: center;
+    
+}
+
+.footer-font {
+    font-size: small;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 100;
+    color: #fff;
+}
+
+a:hover {
+    color: #e0000e;
+    text-decoration: none;
+}
+
+
+a {
+    margin: 0 5px;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-inlineblock {
+    display: inline-block;
+}
+
+.m-0 {
+    margin: 0 !important;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+
+
+
+.btn {
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 1rem;
+
+    /*border-radius: .25rem;*/
+    /*transform: none;*/
+}
+
+.btn:hover {
+    color: #e0000e;
+    text-decoration: none;
+}
+

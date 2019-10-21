@@ -1,6 +1,6 @@
 #### PERFECT gym
 
-This is a website for a professional gym for user from 7 to 85 years old. Users can find information about the trainers, classes, buy some sport tools (neede in gym) and
+This is a website of a professional gym for users from 7 to 85 years old. Users can find information about the trainers, classes, buy some sport tools (neede in gym) and
 get consulted by registaring through the website.
 
 
