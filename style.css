@@ -81,6 +81,50 @@ header .btn {
 }
 
 
+/*---------------------------------main section-------------------------------------*/
+
+.container-index {
+
+    /*height: 100vh;*/
+    
+    /*width: 100%;*/
+    background-attachment: fixed;
+    background: url("images/index.jpg") no-repeat top left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100%;
+
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+    
+    
+    
+    
+}
+
+.slogan{
+    font-size: 30px;
+    margin: 0% 10%;
+    padding: 0rem 5rem;
+    display: block;
+}
+
+.gp{
+    margin: 0rem 5rem;
+    padding: 0rem 5rem;
+    display: block;
+    /*margin: 0rem 30rem;*/
+    /*padding: 0rem 0rem;*/
+    /*text-align: center;*/
+    font-size: 15px;
+    font-style: italic;
+}
 
 
 
@@ -120,6 +164,7 @@ header .btn {
     right: 0px;
     top: 9px;
 }
+/*-------------------------------/small logo-----------------------------------*/
 
 footer {
     position: fixed;
@@ -178,11 +223,6 @@ footer {
 }
 
 
-.menucontainer {
-    font-size: 0;
-}
-
-
 
 /*----------------------Special paddings/margins/text-------------------------*/
 
@@ -205,6 +245,7 @@ h4 {
     
     font-family: 'Alfa Slab One', cursive;
     font-weight: 100;
+    font-size: medium;
     color: #e1e1e1;
     text-shadow: 2px 2px 2px #e0000e;
     text-align: center;
@@ -228,10 +269,6 @@ a {
     margin: 0 5px;
 }
 
-.container-fluid {
-    margin: 0;
-    padding: 0;
-}
 
 .d-block {
     display: block;
