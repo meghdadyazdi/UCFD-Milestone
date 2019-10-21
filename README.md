@@ -34,11 +34,7 @@ I would like to expand the shop section to be able to sell and deliver.
 This site was tested on Chrome.
 
 ### Deployment
-This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
-
-To run locally, you can clone this repository directly into the editor of your choice by pasting `git clone https://github.com/hschafer2017/HSCHAFER-Portfolio.git` into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
-
-
+This site is hosted using GitHub pages, deployed directly from the master branch. 
 ### Media
 All photos were taken from [Unsplash](https://unsplash.com/), 
 
