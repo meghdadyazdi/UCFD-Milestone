@@ -5,7 +5,7 @@ get consulted by registaring through the website.
 
 
 ### Demo
-You can find a demo of website [here](https://github.com/meghdadyazdi/UCFD-Milestone).
+You can find a demo of website [here](https://meghdadyazdi.github.io/UCFD-Milestone/activities.html).
 
 ### UX
 As it is website for gym I try to keep it minimal because the goal is to attract more users that can register and get initial consultant to start work out as 
