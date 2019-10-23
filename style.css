@@ -2,6 +2,47 @@
 
 
 
+.index-body {
+    background-image: url("images/index.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #e1e1e1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /*background: url(background-photo.jpg) center center cover no-repeat fixed;*/
+}
+
+
+.trainers-body {
+    /*height: 100vh;*/
+    background-image: url("images/trainers.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #e1e1e1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.activities-body {
+    /*height: 100vh;*/
+    background-image: url("images/activities.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #e1e1e1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 /*----------------------------------header-------------------------------------*/
 
 header .btn {
@@ -9,7 +50,7 @@ header .btn {
 }
 
 .container-top {
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0);
     height: 70px;
 }
 
@@ -23,8 +64,8 @@ header .btn {
     width: 240px;
     height: 100px;
     position: relative;
-    
-    
+
+
 
 }
 
@@ -57,78 +98,115 @@ header .btn {
 
 /*---------------------------------Nav bar-------------------------------------*/
 
-
-.nav-gym{
-    height: 100px;
-    
-    padding: 55px 200px 0px 200px;
-    background-color: #000;
+.font-nav-main {
     font-family: 'Alfa Slab One', cursive;
-    
+    font-weight: 100;
+    font-size: large;
+}
+
+nav ul li {
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 100;
+    font-size: large;
+    padding: 0px 15px;
+    color: #fff;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #e0000e;
+}
+
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #e0000e;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10%;
+}
+
+.navbar {
+    padding: 2rem 2rem;
+    /*background-color: #000;*/
+}
+
+
+
+.navbar-toggler {
+
+    background-color: rgba(224, 0, 14, .3);
+    border-radius: 20%;
+    border-color: #e0000e;
+}
+
+.dropdown-menu {
+    color: #e0000e;
+    background-color: transparent;
+    border: rgba(0, 0, 0, 0);
+
+}
+
+.dropdown-item {
+    color: #e0000e;
+
+}
+
+.dropdown-item:hover {
+    color: #e0000e;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10%;
+}
+
+button:focus {
+    outline-color: transparent;
+}
+
+.shop-icon {
     color: #e1e1e1;
-    
 }
-
-
-
-.navalert-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
-    z-index: 1;
-}
-
 
 /*---------------------------------main section-------------------------------------*/
 
 .container-index {
-
+    margin-top: 95px;
+    /*min-height: 500px;*/
     /*height: 100vh;*/
-    
     /*width: 100%;*/
-    background-attachment: fixed;
-    background: url("images/index.jpg") no-repeat top left fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: 100%;
-
-
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-    
-    
-    
-    
+    /*background-attachment: fixed;*/
+    /*background: url("images/index.jpg") no-repeat top left;*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: 100%;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*position: relative;*/
 }
 
-.slogan{
-    font-size: 30px;
-    margin: 0% 10%;
-    padding: 0rem 5rem;
+.slogan {
+    margin: 0% 5%;
+    padding: 0rem 0rem;
     display: block;
 }
 
-.gp{
+.gp {
+    font-size: 12px !important;
     margin: 0rem 5rem;
     padding: 0rem 5rem;
     display: block;
     /*margin: 0rem 30rem;*/
     /*padding: 0rem 0rem;*/
     /*text-align: center;*/
-    font-size: 15px;
     font-style: italic;
 }
 
 
 
+
+
 /*----------------------------------Footer-------------------------------------*/
+
 /*--------------------------------small logo-----------------------------------*/
 
 .mylogo {
@@ -164,17 +242,26 @@ header .btn {
     right: 0px;
     top: 9px;
 }
+
 /*-------------------------------/small logo-----------------------------------*/
 
 footer {
+
+    left: 0;
+    bottom: 0 !important;
+    min-height: 50px;
+    background-color: rgba(0, 0, 0, .3);
+    /*color: #fafafa;*/
+}
+
+/*.footer-trainers{*/
+
+/*    width: 100%;*/
+
+/*}*/
+
+.footer-index {
     position: fixed;
-   left: 0;
-   bottom: 0;
-   /*width: 100%;*/
-    /*background-color: #2e2d2c;*/
-    background-color: #000;
-    color: #fafafa;
-    min-height: 120px;
 }
 
 .footer-items {
@@ -198,7 +285,7 @@ footer {
     font-size: 18px;
     text-align: center;
     color: #fafafa;
-    background-color: #2e2d2c;
+
 
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -223,15 +310,64 @@ footer {
 }
 
 
+/*----------------------join us form-------------------------*/
+
+.font-form-title {
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 100;
+    font-size: x-small;
+}
+
+.font-form-item {
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 100;
+    font-size: small;
+}
+
+
+/*.btn.focus,*/
+
+/*.btn:focus {*/
+
+/*    outline: 0;*/
+
+/*    box-shadow: 0 0 0 0.2rem #e1e1e1;*/
+
+/*}*/
+
+.btn-success {
+    color: #e0000e !important;
+    background-color: #fff !important;
+    border-color: #e0000e;
+    padding: 5px 5px !important;
+}
+
+.btn-success:hover {
+    color: #fff !important;
+    background-color: #e0000e !important;
+    border-color: #e0000e;
+}
+
+.btn-success:not(:disabled):not(.disabled):active,
+.show>.btn-success.dropdown-toggle {
+    color: transparent;
+    background-color: transparent;
+    border-color: #e0000e;
+}
+
+.btn-success.focus,
+.btn-success:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0);
+}
+
+.btn-success:not(:disabled):not(.disabled):active:focus,
+.show>.btn-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0);
+}
+
+
 
 /*----------------------Special paddings/margins/text-------------------------*/
-
-h1,
-h2,
-h3,
-h4 {
-    margin: 0;
-}
 
 .bg-transparent {
     background-color: rgba(0, 0, 0, .1);
@@ -242,14 +378,14 @@ h4 {
 }
 
 .main-font {
-    
+
     font-family: 'Alfa Slab One', cursive;
     font-weight: 100;
-    font-size: medium;
+    font-size: x-large;
     color: #e1e1e1;
     text-shadow: 2px 2px 2px #e0000e;
     text-align: center;
-    
+
 }
 
 .footer-font {
@@ -292,7 +428,7 @@ a {
 .btn {
     font-family: 'Alfa Slab One', cursive;
     font-weight: 100;
-    color: #fff;
+    color: #e0000e;
     text-align: center;
     padding: 5px 0px;
     font-size: 1rem;
@@ -302,7 +438,179 @@ a {
 }
 
 .btn:hover {
-    color: #e0000e;
     text-decoration: none;
+    background-color: #e0000e;
+    color: #fff;
+    transition: background-color .2s ease-in-out;
 }
 
+
+.btn.focus,
+.btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0);
+}
+
+/*----------------------/Special paddings/margins/text-------------------------*/
+
+/*-------------------------------trainers-----------------------------------*/
+
+.box {
+    -webkit-box-shadow: 0px 0px 80px 60px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 80px 60px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 80px 60px rgba(0, 0, 0, 0.75);
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background-color: #414345;
+    position: relative;
+    margin: 20% 20%;
+    border-radius: 5%;
+}
+
+
+
+.box h2 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: x-large;
+    color: #e0000e;
+    /*width: 240px;*/
+    /*height: 100px;*/
+    position: relative;
+    text-align: center;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.box p {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: small;
+    color: #e1e1e1;
+    /*width: 240px;*/
+    /*height: 100px;*/
+    position: relative;
+    text-align: center;
+    font-style: italic;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.trainer {
+    height: 60%;
+    width: 60%;
+    /*margin: 0% 20%;*/
+    border-radius: 50%;
+    /*position: relative;*/
+    position: absolute;
+    top: -40px;
+    right: 60px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #e1e1e1;
+    -webkit-box-shadow: 0px 0px 30px 60px rgba(214, 0, 14, 0.75);
+    -moz-box-shadow: 0px 0px 80px 60px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.5);
+    transition: transform .5s ease-in-out;
+    -moz-transition: transform .5s ease-in-out;
+    -webkit-transition: transform .5s ease-in-out;
+    -o-transition: transform .2s ease-in-out;
+}
+
+.trainer:hover {
+    transform: translate(0px, -10px)
+}
+
+.box a {
+    color: #e1e1e1;
+    position: absolute;
+    text-align: center;
+    font-size: 1rem;
+    top: 95%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.box a:hover {
+    text-decoration: none;
+    background-color: #e1e1e1;
+    color: #e0000e;
+    transition: background-color .2s ease-in-out;
+
+
+
+
+}
+
+/*-------------------------------activities-----------------------------------*/
+
+.box-activity {
+    -webkit-box-shadow: 0px 0px 80px 60px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 80px 60px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 80px 60px rgba(0, 0, 0, 0.75);
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: #414345;
+    position: relative;
+    margin: 20% 20%;
+    border-radius: 5%;
+    
+    background-image: url("images/7.1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #e1e1e1;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+
+
+/*-------------------------------Media Query-----------------------------------*/
+
+@media only screen and (max-width: 767px) {
+    index-body {
+        background-image: url("images/index-mobile.jpg");
+    }
+    trainers-body {
+        background-image: url("images/trainers-mobile.jpg");
+    }
+    .activities-body {
+        background-image: url("images/.activities-mobile.jpg");
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .container-index {
+        margin-top: 35px;
+    }
+    .slogan {
+        margin: 0;
+    }
+
+    .gp {
+        font-size: 12px !important;
+        margin: 0rem 0rem;
+        padding: 0rem 0rem;
+        display: block;
+        /*margin: 0rem 30rem;*/
+        /*padding: 0rem 0rem;*/
+        /*text-align: center;*/
+        font-style: italic;
+    }
+
+
+}
+
+/*-------------------------------/Media Query-----------------------------------*/
