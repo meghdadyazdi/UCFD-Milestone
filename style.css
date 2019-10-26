@@ -1,4 +1,3 @@
-
 .index-body {
     background-image: url("images/index.jpg");
     background-position: center center;
@@ -9,10 +8,8 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     /*background: url(background-photo.jpg) center center cover no-repeat fixed;*/
 }
-
 
 .trainers-body {
     background-image: url("images/trainers.jpg");
@@ -83,9 +80,6 @@ header .btn {
     width: 240px;
     height: 100px;
     position: relative;
-
-
-
 }
 
 #per_in_logo-big {
@@ -113,8 +107,6 @@ header .btn {
     top: 18px;
 }
 
-
-
 /*---------------------------------Nav bar-------------------------------------*/
 
 .font-nav-main {
@@ -129,15 +121,11 @@ nav ul li {
     font-size: large;
     padding: 0px 15px;
     color: #fff;
-
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: #e0000e;
-    /*padding: .5rem 1rem;*/
 }
-
-
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
@@ -148,13 +136,9 @@ nav ul li {
 
 .navbar {
     padding: 2rem 2rem;
-    /*background-color: #000;*/
 }
 
-
-
 .navbar-toggler {
-
     background-color: rgba(224, 0, 14, .3);
     border-radius: 20%;
     border-color: #e0000e;
@@ -164,12 +148,10 @@ nav ul li {
     color: #e0000e;
     background-color: transparent;
     border: rgba(0, 0, 0, 0);
-
 }
 
 .dropdown-item {
     color: #e0000e;
-
 }
 
 .dropdown-item:hover {
@@ -190,19 +172,6 @@ button:focus {
 
 .container-index {
     margin-top: 95px;
-    /*min-height: 500px;*/
-    /*height: 100vh;*/
-    /*width: 100%;*/
-    /*background-attachment: fixed;*/
-    /*background: url("images/index.jpg") no-repeat top left;*/
-    /*-webkit-background-size: cover;*/
-    /*-moz-background-size: cover;*/
-    /*-o-background-size: cover;*/
-    /*background-size: 100%;*/
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
-    /*position: relative;*/
 }
 
 .slogan {
@@ -216,19 +185,10 @@ button:focus {
     margin: 0rem 5rem;
     padding: 0rem 5rem;
     display: block;
-    /*margin: 0rem 30rem;*/
-    /*padding: 0rem 0rem;*/
-    /*text-align: center;*/
     font-style: italic;
 }
 
-
-
-
-
 /*----------------------------------Footer-------------------------------------*/
-
-/*--------------------------------small logo-----------------------------------*/
 
 .mylogo {
     font-family: 'Alfa Slab One', sans-serif;
@@ -237,7 +197,6 @@ button:focus {
     color: #e1e1e1;
     width: 145px;
     position: relative;
-
 }
 
 #per_in_logo {
@@ -264,22 +223,13 @@ button:focus {
     top: 9px;
 }
 
-/*-------------------------------/small logo-----------------------------------*/
-
 footer {
     position: fixed;
     left: 0;
     bottom: 0 !important;
     min-height: 50px;
     background-color: rgba(0, 0, 0, .3);
-    /*color: #fafafa;*/
 }
-
-/*.footer-trainers{*/
-
-/*    width: 100%;*/
-
-/*}*/
 
 .footer-items {}
 
@@ -288,41 +238,48 @@ footer {
     color: #fff;
 }
 
-
 .social-link {
     margin: 0;
 }
 
+#facebook:hover {
+    color: #3b5998;
+    font-size: 22px;
+}
+
+#instagram:hover {
+    color: #cf191f;
+    font-size: 22px;
+}
+
+#twitter:hover {
+    color: #38A1F3;
+    font-size: 22px;
+}
+
+#youtube:hover {
+    color: #FF0000;
+    font-size: 22px;
+}
 
 .social-link li a i {
 
     font-size: 18px;
     text-align: center;
     color: #fafafa;
-
-
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
 }
 
-
 .list-inline-item {
     margin: 0;
 }
 
-
-.social-link li a i:hover {
-    color: #e0000e;
-    font-size: 22px;
-}
-
-
 .list-inline-item:not(:last-child) {
     margin-right: 0;
 }
-
 
 /*----------------------join us form-------------------------*/
 
@@ -337,17 +294,6 @@ footer {
     font-weight: 100;
     font-size: small;
 }
-
-
-/*.btn.focus,*/
-
-/*.btn:focus {*/
-
-/*    outline: 0;*/
-
-/*    box-shadow: 0 0 0 0.2rem #e1e1e1;*/
-
-/*}*/
 
 .btn-success {
     color: #e0000e !important;
@@ -379,8 +325,6 @@ footer {
     box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0);
 }
 
-
-
 /*----------------------Special paddings/margins/text-------------------------*/
 
 .bg-transparent {
@@ -399,7 +343,6 @@ footer {
     color: #e1e1e1;
     text-shadow: 2px 2px 2px #e0000e;
     text-align: center;
-
 }
 
 .footer-font {
@@ -414,11 +357,9 @@ a:hover {
     text-decoration: none;
 }
 
-
 a {
     margin: 0 5px;
 }
-
 
 .d-block {
     display: block;
@@ -436,9 +377,6 @@ a {
     padding: 0 !important;
 }
 
-
-
-
 .btn {
     font-family: 'Alfa Slab One', sans-serif;
     font-weight: 100;
@@ -446,9 +384,6 @@ a {
     text-align: center;
     padding: 5px 0px;
     font-size: 1rem;
-
-    /*border-radius: .25rem;*/
-    /*transform: none;*/
 }
 
 .btn:hover {
@@ -457,7 +392,6 @@ a {
     color: #fff;
     transition: background-color .2s ease-in-out;
 }
-
 
 .btn.focus,
 .btn:focus {
@@ -479,67 +413,67 @@ h2 {
     transform: translate(-50%, -50%)
 }
 
-
-/*----------------------/Special paddings/margins/text-------------------------*/
-
 /*-------------------------------trainers-----------------------------------*/
 
 .box {
-    -webkit-box-shadow: 0px 0px 80px 60px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 80px 60px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 80px 60px rgba(0, 0, 0, 0.75);
-    width: 400px;
-    height: 400px;
+    -webkit-box-shadow: 0px 0px 20px 15px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 20px 15px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 20px 15px rgba(0, 0, 0, 0.75);
+    width: 300px !important;
+    height: 300px;
     display: inline-block;
     background-color: #414345;
-    position: relative;
-    margin: 20% 20%;
-    border-radius: 5%;
+    margin: 35px 5px;
+    border-radius: 2%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-
-
-
-.box p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: medium;
-    color: #e1e1e1;
-    /*width: 240px;*/
-    /*height: 100px;*/
-    position: relative;
-    text-align: justify;
-    font-style: italic;
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    margin-right: -40%;
-    transform: translate(-50%, -50%);
-    /*letter-spacing: 2px;*/
+.special-marging-top {
+    margin-top: 150px;
 }
 
 .trainer {
-    height: 70%;
-    width: 70%;
-    /*margin: 0% 20%;*/
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
-    /*position: relative;*/
-    position: absolute;
-    top: -30%;
-    right: 15%;
+    position: relative;
+    top: -70px;
+    right: 0%;
     border-style: solid;
     border-width: 10px;
     border-color: #e1e1e1;
-    -webkit-box-shadow: 0px 0px 30px 60px rgba(214, 0, 14, 0.75);
-    -moz-box-shadow: 0px 0px 80px 60px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 0px 40px 30px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 40px 30px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 40px 30px rgba(0, 0, 0, 0.75);
     transition: transform .5s ease-in-out;
     -moz-transition: transform .5s ease-in-out;
     -webkit-transition: transform .5s ease-in-out;
-    -o-transition: transform .2s ease-in-out;
+    -o-transition: transform .5s ease-in-out;
 }
 
 .trainer:hover {
     transform: translate(0px, -10px)
+}
+
+.box h2 {
+    font-family: 'Alfa Slab One', sans-serif;
+    font-size: xx-large;
+    color: #e0000e;
+    text-align: center;
+    top: -10%;
+    left: 50%;
+    height: 45px;
+    width: 200px;
+    border-radius: 2px;
+    position: relative;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 .box a {
@@ -547,9 +481,9 @@ h2 {
     position: absolute;
     text-align: center;
     font-size: 1rem;
-    top: 95%;
+    top: 85%;
     left: 50%;
-    margin-right: -50%;
+
     transform: translate(-50%, -50%)
 }
 
@@ -558,10 +492,19 @@ h2 {
     background-color: #e1e1e1;
     color: #e0000e;
     transition: background-color .2s ease-in-out;
+}
 
-
-
-
+.box p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    color: #e1e1e1;
+    position: relative;
+    text-align: justify;
+    font-style: italic;
+    top: 5%;
+    left: 50%;
+    margin-right: 15%;
+    transform: translate(-50%, -50%);
 }
 
 /*-------------------------------activities-----------------------------------*/
@@ -577,8 +520,6 @@ h2 {
     position: relative;
     margin: 35px 5px;
     border-radius: 2%;
-
-    
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -588,39 +529,39 @@ h2 {
     background-size: cover;
 }
 
-.image-zumba{
+.image-zumba {
     background-image: url("images/zumba.jpg");
 }
 
-.image-yoga{
+.image-yoga {
     background-image: url("images/yoga.jpg");
 }
 
-.image-kids{
+.image-kids {
     background-image: url("images/kids.jpg");
 }
 
-.image-pilates{
+.image-pilates {
     background-image: url("images/pilates.jpg");
 }
 
-.image-crossfit{
+.image-crossfit {
     background-image: url("images/crossfit.jpg");
 }
 
-.image-elderly{
+.image-elderly {
     background-image: url("images/elderly.jpg");
 }
 
-.image-gruning{
+.image-gruning {
     background-image: url("images/grunning.jpg");
 }
 
-.image-individual{
+.image-individual {
     background-image: url("images/individual.jpg");
 }
 
-.special-marging{
+.special-marging {
     margin-bottom: 200px !important;
 }
 
@@ -635,12 +576,26 @@ h2 {
     border-radius: 2px;
 }
 
+.box-activity p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    color: #e1e1e1;
+    text-align: justify;
+    font-style: italic;
+    position: absolute;
+    top: -35%;
+    left: 50%;
+    margin-right: -135%;
+    transform: translate(-50%, -50%);
+}
+
 /*-------------------------------shop-----------------------------------*/
+
 .box-shop {
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
-    width: 200px;
+    width: 250px;
     height: 300px;
     display: inline-block;
     background-color: #414345;
@@ -655,100 +610,120 @@ h2 {
     background-size: cover;
 }
 
-.image-watch{
+.image-watch {
     background-image: url("images/watch.jpg");
 }
 
-.image-shirt{
+.image-shirt {
     background-image: url("images/shirt.jpg");
 }
 
-.image-bottle{
+.image-bottle {
     background-image: url("images/bottle.jpg");
 }
 
-.image-shoe{
+.image-shoe {
     background-image: url("images/shoe.jpg");
 }
 
-.image-protein{
+.image-protein {
     background-image: url("images/protein.jpg");
 }
 
-
-.image-comingsoon{
+.image-comingsoon {
     background-image: url("images/comingsoon.jpg");
 }
 
-
-
-
-.box-shop p{
+.box-shop p {
     font-family: 'Open Sans', sans-serif;
     text-align: left;
-    /*top: 112%;*/
     background-color: #fafafa;
     font-size: medium;
     font-weight: 700;
     color: #000;
-    width: 200px;
+    width: 250px;
     height: 60px;
     margin-top: 301px;
     padding-left: 10px;
-    
 }
-
-
 
 /*-------------------------------contact-----------------------------------*/
 
-.contact{
+.contact {
     max-width: 50%;
 }
 
-.font-contact{
+.font-contact {
     font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    color: #000;
+    color: #fff;
     font-weight: 900;
+    text-shadow: -1px 0px rgb(0, 0, 0);
 }
 
-.contact div{
+.contact div {
     max-height: 90px
 }
 
-.contact h3{
+.contact h3 {
     font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: 900;
+    text-shadow: -1px 0px rgb(0, 0, 0);
+}
+
+.form-control {
+    display: block;
+    color: #fafafa;
+    background-color: #e1e1e1;
+    background-clip: padding-box;
+    border: 2px solid #414141;
+    border-radius: 10px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.font-radio {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-weight: 900;
+    text-shadow: -1px 0px rgb(0, 0, 0);
+}
+
+.contact input {
+    margin: 20px 0px;
 }
 
 /*-------------------------------Media Query-----------------------------------*/
 
-@media (min-width: 767px) {}
-
 @media only screen and (max-width: 767px) {
     index-body {
         background-image: url("images/index-mobile.jpg");
+        /*background-attachment: scroll;*/
     }
-    
+
     trainers-body {
         background-image: url("images/trainers-mobile.jpg");
+        /*background-attachment: scroll;*/
     }
-    
+
     .activities-body {
         background-image: url("images/activities-mobile.jpg");
+        /*background-attachment: scroll;*/
     }
-    
+
     .shop-body {
         background-image: url("images/shop-mobile.jpg");
+        /*background-attachment: scroll;*/
     }
-    
+
     .contact-body {
         background-image: url("images/gym-mobile.jpg");
+        /*background-attachment: scroll;*/
     }
-    
-    .contact{
-    max-width: 90%;
-}
+
+    .contact {
+        max-width: 90%;
+    }
 }
 
 @media only screen and (max-width: 576px) {
@@ -764,15 +739,8 @@ h2 {
         margin: 0rem 0rem;
         padding: 0rem 0rem;
         display: block;
-        /*margin: 0rem 30rem;*/
-        /*padding: 0rem 0rem;*/
-        /*text-align: center;*/
         font-style: italic;
     }
-}
-
-@media only screen and (max-width: 360px) {
-    
 }
 
 @media (min-width: 576px) {
@@ -781,5 +749,3 @@ h2 {
         padding-left: 0;
     }
 }
-
-/*-------------------------------/Media Query-----------------------------------*/

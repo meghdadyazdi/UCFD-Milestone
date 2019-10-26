@@ -1,6 +1,6 @@
-#### PERFECT gym
+#### PERFECT Gym
 
-This is a website of a professional gym for users from 7 to 85 years old. Users can find information about the trainers, classes, buy some sport tools (neede in gym) and
+This is a website of a professional gym for users from 7 to 85 years old. Users can find information about the trainers, activities, buy some sport tools (neede in gym) and
 get consulted by registaring through the website.
 
 
@@ -8,7 +8,7 @@ get consulted by registaring through the website.
 You can find a demo of website [here](https://meghdadyazdi.github.io/UCFD-Milestone/activities.html).
 
 ### UX
-As it is website for gym I try to keep it minimal because the goal is to attract more users that can register and get initial consultant to start work out as 
+As it is a website for gym I try to keep it minimal because the goal is to attract more users that can register and get initial consultant to start work out as 
 soon as possible.
 
 
@@ -19,11 +19,16 @@ soon as possible.
 4. JQuery
 
 ### Features
-This website contains first page with no scrolling and 3 other pages as introduction of trainers and classes, contact and shop. 
+This website contains first page with no scrolling and 4 other pages as introduction of trainers, activities, contact and shop. 
 
 ##### Home page
+
 ##### Gym page
+## Our Trainers
+## Activities
+
 ##### Shop page
+
 ##### Contact us
 
 
@@ -31,11 +36,10 @@ This website contains first page with no scrolling and 3 other pages as introduc
 I would like to expand the shop section to be able to sell and deliver.
 
 ### Testing
-This site was tested on Chrome.
+This site was tested on Chrome, Safari, and FireFox. 
 
 ### Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. 
 ### Media
 All photos were taken from [Unsplash](https://unsplash.com/), 
 
-### Acknowledgements
