@@ -41,5 +41,5 @@ This site was tested on Chrome, Safari, and FireFox and different devices like m
 ### Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. 
 ### Media
-All photos were taken from [Unsplash](https://unsplash.com/)
+All photos were taken from [Unsplash](https://unsplash.com/).
 
