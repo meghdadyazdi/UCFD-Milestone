@@ -698,27 +698,27 @@ h2 {
 @media only screen and (max-width: 767px) {
     index-body {
         background-image: url("images/index-mobile.jpg");
-        /*background-attachment: scroll;*/
+        background-attachment: scroll;
     }
 
     trainers-body {
         background-image: url("images/trainers-mobile.jpg");
-        /*background-attachment: scroll;*/
+        background-attachment: scroll;
     }
 
     .activities-body {
         background-image: url("images/activities-mobile.jpg");
-        /*background-attachment: scroll;*/
+        background-attachment: scroll;
     }
 
     .shop-body {
         background-image: url("images/shop-mobile.jpg");
-        /*background-attachment: scroll;*/
+        background-attachment: scroll;
     }
 
     .contact-body {
         background-image: url("images/gym-mobile.jpg");
-        /*background-attachment: scroll;*/
+        background-attachment: scroll;
     }
 
     .contact {
