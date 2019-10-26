@@ -24,8 +24,8 @@ This website contains first page with no scrolling and 4 other pages as introduc
 ##### Home page
 
 ##### Gym page
-## Our Trainers
-## Activities
+###### Our Trainers
+###### Activities
 
 ##### Shop page
 
@@ -36,10 +36,10 @@ This website contains first page with no scrolling and 4 other pages as introduc
 I would like to expand the shop section to be able to sell and deliver.
 
 ### Testing
-This site was tested on Chrome, Safari, and FireFox. 
+This site was tested on Chrome, Safari, and FireFox and different devices like mobile (iPhone and  Samsung) and iPads to check the responsiveness.
 
 ### Deployment
 This site is hosted using GitHub pages, deployed directly from the master branch. 
 ### Media
-All photos were taken from [Unsplash](https://unsplash.com/), 
+All photos were taken from [Unsplash](https://unsplash.com/)
 
